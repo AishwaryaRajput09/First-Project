@@ -3,14 +3,14 @@
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
 }
-a{
+.header a{
     text-decoration: none;
     font-size: 26px;
 }
-ul{
+.header ul{
     list-style: none;
 }
-li{
+.header li{
     float: left;
     display: block;
     padding: 10px;
@@ -108,4 +108,322 @@ font-style: normal !important;
     padding-left: 25%;
     padding-right: 25%;
     padding-bottom: 40px;
+}
+.box-b{
+
+    flex:33%;
+    height: 370px;
+    margin: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.box-b1{
+    /* background-image: url(./fg.jpg); */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./fg.jpg);
+    background-size: cover;
+   
+}
+.box-b2{
+    background-color: #ec6011;
+}
+.box-b3{
+    /* background-color: lightsalmon; */
+     /* background-image: url(./wewe.jp  ) */
+     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./wewe.jpg);
+    
+    background-size: cover;
+    
+}
+.box-b4{
+    background-color: #92c705;
+}
+.box-b5{
+    /* background-color: midnightblue; */
+    /* background-image: url(./bf5831c7-be61-2575-6483-f38c1ca09a87.jpg);? */
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(./bf5831c7-be61-2575-6483-f38c1ca09a87.jpg);
+    background-size: cover;
+}
+.box-b6{
+    background-color: #2cccc4;
+}
+.main-box1{
+    display: flex;
+    margin:0px 160px 0px 160px;
+}
+.box-b img{
+    width:140px;
+    opacity: 50%;
+}
+.box-img{
+    display: flex;
+    justify-content: center;
+}
+.box-b h2{
+    color: white;
+    text-align: center;
+    margin: 40px;
+    font-size: 28px;
+}
+.img3{
+    background-image: url(./fdrt.jpg);
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+    margin-left:0 !important;
+    margin-right: 0 !important;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    /* background-position: center; */
+    height: 400px;
+    
+}
+.main2{
+    background-color: #2b2933;
+}
+.main-box2{
+    display: flex;
+    padding: 0px 100px;
+
+}
+.box-c{
+    flex: 25%;
+    height: 400px;
+    margin:70px 10px 70px 10px;
+    /* margin-top: 70px; */
+    background-color: white;
+    
+}
+
+.box-c img{
+    width: 25%;
+    background-color:#2cccc4;
+    padding:20px;
+    border-radius: 50%;
+}
+.box-c span{
+    display: flex;
+    justify-content: center;
+
+}
+.box-c div{
+    padding-top: 30px;
+}
+.box-c2 img{
+    background-color: #ec6011;
+}
+.box-c3 img{
+    background-color: #92c705;
+}
+.box-c4 img{
+    background-color:#573aba;
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.content p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    padding: 0 15%;
+}
+.content a{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    display: block;
+    color: black;
+    text-decoration: underline;
+    font-size: medium;
+}
+.logo span{
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    padding-top: 160px;
+}
+.logo h1{
+    text-align: center;
+    color: white;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 50px;
+    padding: 30px 0;
+}
+.logo p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif ;
+    color: white;
+    padding:0 30% 50px 30%;
+}
+.logo img{
+    width: 100px;
+}
+.main3 span{
+    display: flex;
+    justify-content: center;
+}
+.main3{
+    display: flex;
+    padding: 100px;
+}
+.main3-a{
+    flex: 50%;
+}
+.main3-b{
+    flex: 50%;
+    
+}
+.main3 img{
+    width: 500px;
+}
+.main3-b h1{
+    font-size: 40px;
+    font-family:sans-serif ;
+}
+.main3-b p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+.main3-b ul{
+    margin-left: 20px;
+}
+.main3-b li{
+    margin: 10px 0;
+}
+.main3 button{
+    border: 2px solid black;
+    margin: 30px 0;
+    width: 140px;
+    height: 40px;
+}
+.main3-b a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif ;
+    color: black;
+    display: block;
+    font-weight: bold;
+    padding: 10px;
+}
+.main3-b button:hover{
+    background-color: black;
+    border: 2px solid white;
+}
+.main3-b a:hover{
+    color: white;
+}
+.main4{
+    display: flex ;
+    padding: 30px 130px;
+    margin-bottom: 100px;
+}
+.main4-a{
+    flex:33%;
+}
+.main4 span{
+    display: flex;
+    justify-content: center;
+}
+.main4 img{
+    width: 70%;
+}
+.main4-b{
+    text-align: center;
+    padding: 10px 20px;
+    font-family:'Montserrat', sans-serif ;
+}
+.main4-b h4{
+    color: #92c705;
+    padding: 10px;
+    font-size: 20px;
+    
+}
+.main4-b p{
+    padding: 15px;
+}
+.social span{
+display: inline-block;
+width: 50px;
+}
+.social {
+text-align: center; 
+padding-top: 15px;
+}
+.main5{
+    background-color: #312e2e;
+    display: flex;
+    height: 500px;
+}
+.main6{
+    background-color: #333333;
+    height: 300px;
+    flex: 50%;
+}
+.form1{
+    flex: 50%;
+    margin: 55px;
+}
+.form1 input{
+    height: 25px;
+    padding: 20px;
+    width: 300px;
+    background-color: #312e2e;
+    border: none;
+    font-size: 20px;
+    margin: 4px;
+    border-bottom: 1px solid white;
+}
+.form1 textarea{
+    background-color:  #312e2e;
+    border: none;
+    font-size: 25px;
+    border-bottom: 1px solid white;
+    margin-top: 10px;
+    padding: 20px;
+}
+.form2{
+    flex: 50%;
+    padding: 2px;   
+}
+.form1 button{
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    height: 40px;
+    width: 695px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color:#d4560f ;
+    border: none;
+ cursor: pointer;
+}
+.form2 p{
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    padding-right: 200px;
+    margin-top: 30px;
+}
+.form2-p{
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+/* padding: 30px; */
+/* font-weight: 40; */
+}
+.form2 h1{
+    font-size: 60px;
+    /* font-weight: ; */
+    /* font-family: 'Montserrat', sans-serif; */
+    color: white;
+    /* padding: 20px; */
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom:14px ;
+
+} 
+.form2-b{
+    margin-top: 20px;
+}
+.main7{
+    display: flex;
 }
